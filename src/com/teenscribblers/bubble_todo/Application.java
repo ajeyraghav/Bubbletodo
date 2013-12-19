@@ -27,8 +27,8 @@ public class Application extends android.app.Application {
 		super.onCreate();
 
 		ParseObject.registerSubclass(Todolist.class);
-		Parse.initialize(this, "tMC4UpC7yBFbwZsqLnKK1hswoNXeHvdipVzHE58I",
-				"SeW5Vffx3jtLpOdtmERkjKmIqpkmfN79SDSOhkoM");
+		Parse.initialize(this, "",
+				"");
 		preferences = getSharedPreferences("com.teenscribblers.bubbletodo",
 				Context.MODE_PRIVATE);
 		pref = getSharedPreferences("com.teenscribblers.bubbletodo",
