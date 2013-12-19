@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/postbutton"
+        android:showAsAction="always"
+        android:title="New Post"
+        android:icon="@android:drawable/ic_input_add"
+        android:titleCondensed="post">
+    </item>
+<item
+        android:id="@+id/showlist"
+        android:showAsAction="always"
+        android:title="Show List"
+        android:icon="@android:drawable/ic_menu_more"
+        android:titleCondensed="list">
+    </item>
+</menu>
